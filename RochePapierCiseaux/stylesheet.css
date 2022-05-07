@@ -1,0 +1,185 @@
+
+/* Fourni par Laura Salas, chargé de TP*/
+
+body {
+    font-family: Helvetica;
+    padding: 0.18em;
+    background-color: whitesmoke;
+    text-align: center;
+    color: white;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-size: 3em;
+
+
+}
+
+h2 {
+    font-family: times;
+    font-size: 2em;
+    font-style: italic;
+
+
+}
+
+li {
+    display: inline-block;
+    justify-content: space-between;
+}
+
+img {
+    width: 12em;
+    length: 12em;
+    padding: 0.75em 1.25em 4em 5em;
+    vertical-align: middle;
+}
+
+li {
+    cursor: pointer;
+}
+
+.divider {
+    display: inline-block;
+    vertical-align: top;
+}
+
+ul.img-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+ul.img-list li {
+    display: inline-block;
+    height: 150px;
+    margin: 0 10em 9.5em 0;
+    position: relative;
+    width: 150px;
+    vertical-align: middle;
+}
+
+span.text-content {
+    color: black;
+    display: table;
+    line-height: 10em;
+    margin-left: 50px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    opacity: 0;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    transition: opacity 500ms;
+}
+
+span.text-content span {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+ul.img-list li:hover span.text-content {
+    opacity: 1;
+}
+
+li:hover {
+    transform: rotateZ(20deg);
+}
+
+.card-container {
+    perspective: 700;
+}
+
+.myButton {
+    -moz-box-shadow: inset 0px 1px 0px 0px #ffffff;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #ffffff;
+    box-shadow: inset 0px 1px 0px 0px #ffffff;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf));
+    background: -moz-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+    background: -webkit-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+    background: -o-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+    background: -ms-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+    background: linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf', GradientType=0);
+    background-color: #ededed;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    border: 1px solid #dcdcdc;
+    display: inline-block;
+    cursor: pointer;
+    color: #777777;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffffff;
+}
+
+.myButton:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed));
+    background: -moz-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+    background: -webkit-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+    background: -o-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+    background: -ms-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+    background: linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed', GradientType=0);
+    background-color: #dfdfdf;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+
+}
+
+.clicky-button {
+    padding: 0.75em 1.25em;
+    background-color: whitesmoke;
+    opacity: 0.9;
+    width: 10em;
+    color: black;
+}
+
+button {
+    width: 5em;
+    height: 2em;
+    font-size: 5em;
+}
+
+.grey {
+    background-color: black;
+    opacity: 0.9;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+}
+
+.instruments {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.instruments h1 {
+    color: green;
+}
+
+
+#choixPersonne {
+    background-color: black;
+    opacity: 0.9;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    color: green;
+}
+
+#choixOrdi {
+    background-color: black;
+    opacity: 0.9;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    color: red;
+}
